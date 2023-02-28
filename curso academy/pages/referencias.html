@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referencias</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h2>CURRICULUM VITAE</h2>
+        <a href="../index.html">Home</a>
+    </header>
+    <main>
+        <div class="contenedorReferencias">
+            <H1 class="tituloUno">Referencias</H1>
+            <ul class="listaReferencias">
+                <li>Epsilon Inc. - Ref: Jennie Nichols: (644) 304-1129</li>
+                <li>Alpha Corporate. - Ref: Alexander Howard: (597) 923-9045</li>
+                <li>Luna S.A. - Ref: Harry Williamson: (850) 666-4529</li>
+            </ul>    
+        </div>        
+    </main>
+    <br>
+    <footer>
+        <p>2023</p>
+        <button id="botonMas" class="botonInfo">+ info</button>
+        <p id="infoExtra"></p>
+    </footer>
+
+    <script>
+    function mostrarMasInfo() {
+        document.getElementById("infoExtra").innerHTML = "Accede a mi trabajo en github: www.github.com/samanthacraig";
+    }
+    
+    document.getElementById("botonMas").onclick = function () {
+        mostrarMasInfo();
+    }
+    </script>
+</body>
+</html>

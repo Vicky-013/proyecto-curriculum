@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h2>CURRICULUM VITAE</h2>
+        <a href="./pages/referencias.html">Referencias</a>
+    </header>
+    <main>
+        <section>
+            <h1 class="tituloUno">Samantha Craig</h1>
+            <h2 class="tituloDos">Desarrollador web</h2>
+        </section>
+        <div class="contenedor">
+            <section class="contacto">
+                <img src="./assets/foto-perfil.jpg" alt="Imagen de una mujer joven.">
+                <div>
+                    <h3 class="tituloTres">Contacto</h3>
+                    <ul class="lista">
+                        <li>Celular: (892) 324-4465</li>
+                        <li>E-mail: samantha.craig@example.com</li>
+                        <li>Ubicación: 3190 Country Club Rd</li>
+                        <li>Fecha de nacimiento: 10/4/1962</li>
+                    </ul>    
+                </div>
+            </section>
+            <div>
+            <section class="contenido">
+                <div class="contenedorPresentacion">
+                    <H3 class="tituloTres">Presentación</H3>
+                    <p class="presentacion">Soy una programadora y desarrolladora web en busca de un puesto en la creciente industria de la tecnologia. Tengo experiencia en diferentes lenguajes de programacion y un gran apetito por el conocimiento.</p>
+                </div>
+                
+                <div class="contenedorExperiencia">
+                    <H3 class="tituloTres">Experiencia</H3>
+                    <h4 class="tituloCuatro">Epsilon Inc. (2015/2018)</h4>
+                    <ul class="lista">
+                        <li>Toma de requerimientos con el cliente</li>
+                        <li>Análisis de requerimientos y diseño de aplicaciones</li>
+                        <li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL</li>
+                        <li>Soporte técnico a clientes</li>
+                    </ul>
+                    <h4 class="tituloCuatro">Alpha Corporate. (2018/2020)</h4>
+                    <ul class="lista">
+                        <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+                        <li>Realización de test de aplicaciones</li>
+                        <li>Solución de incidencias</li>
+                    </ul>
+                    <h4 class="tituloCuatro">Luna S.A. (2020/2022)</h4>
+                    <ul class="lista">
+                        <li>Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP</li>
+                        <li>Mantenimiento de aplicaciones web</li>
+                        <li>Maquetación HTML5, CSS3, Bootstrap</li>
+                        <li>Manejo de datos XML, JSON</li>
+                    </ul>    
+                </div>            
+                <div class="class="contenedorExperiencia"">
+                    <H3 class="tituloTres">Educación</H3>
+                    <p>2007 - 2011 Ingeniería de Telecomunicaciones, Universidad de Navarra</p>
+                    <p>20010 - 2013 Ingles, Escuela de lenguas de Navarra</p>
+                </div>            
+                <div>
+                    <H3 class="tituloTres">Habilidades</H3>
+                    <ul class="lista">
+                        <li>Javacript</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>HTML5</li>
+                        <li>Typescript</li>
+                        <li>Angular</li>
+                        <li>Bootstrap</li>
+                    </ul>    
+                </div>                
+            </section>   
+            </div>
+        </div>
+    </main>
+    <br>    
+    <footer>
+        <p>2023</p>
+        <button id="botonMas" class="botonInfo">+ info</button>
+        <p id="infoExtra"></p>
+    </footer>
+
+    <script>
+    function mostrarMasInfo() {
+        document.getElementById("infoExtra").innerHTML = "Accede a mi trabajo en github: www.github.com/samanthacraig";
+    }
+    
+    document.getElementById("botonMas").onclick = function () {
+        mostrarMasInfo();
+    }
+    </script>
+</body>
+</html>

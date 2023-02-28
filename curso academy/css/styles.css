@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+colores
+#03001C
+#301E67
+#5B8FB9
+#c1e5e6
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    font-size: 2rem;
+    display: flex;
+}
+
+header {
+    background-color:#03001C;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+}
+
+body {
+    background-color: #c1e5e6;
+}
+
+.tituloUno {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+.tituloDos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 2rem;
+
+}
+
+.tituloTres {
+    background-color: #5B8FB9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.tituloCuatro {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.presentacion {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+}
+
+.contenedorPresentacion {
+    padding: 2rem;
+}
+
+.contacto {
+    padding: 4rem;
+}
+
+.contenedorExperiencia {
+    padding: 2rem;
+}
+
+.lista {
+    list-style: none;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+}
+
+footer {
+    background-color: #301E67;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.botonInfo {
+    color: #03001C;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+/*Pag referencias*/
+
+.listaReferencias {
+    font-size: 2.5rem;
+    list-style: none;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+    padding: 2rem;
+
+}
+
+.contenedorReferencias {
+    height: 60rem;
+    padding: 3rem;
+}
